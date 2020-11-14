@@ -1,0 +1,675 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-size: 1.5em;
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+h5{
+    font-size: 1em;
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h6{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 0.9em;
+}
+.toolbar{
+    display: flex;
+    background: rgb(102, 192, 219);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 40px;   
+    padding: 10px 20px;
+}
+
+.toolbarNavigation{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    align-content: space-between;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    align-content: space-between;
+    padding: 0 1rem;
+}
+
+.toolbarLogo{
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+.toolbarItems a,
+.getInTouch a,
+ .contactItems a{
+    color: white;
+    text-decoration: none;
+}
+
+.toolbarItems a:hover, 
+.contactItems a:hover,
+ .toolbarItems a:active{
+    color: lime;
+}
+
+.toolbarItems ul, .contactItems ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.toolbarItems li, .contactItems li{
+    padding: 0 0.5rem;
+    color: rgb(102, 192, 219);
+    font-size: 20px;    
+}
+
+.spacer{
+    flex: 0.47;
+}
+
+.toggle-button{
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    padding-right: 4px;
+    margin-left: -18px;
+}
+
+.toggle-button:hover{
+    font-size: 35px;
+} 
+
+.backdrop{
+    position: fixed;
+    width: 100%;
+    height: 100%; 
+    background: rgba(0, 0, 0, 0.1); 
+    z-index: 100;
+}
+
+
+.side-drawer{   
+    height: 100%;
+    position: fixed;
+    background: whitesmoke;
+    top: 55px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    width: 40%;
+    max-width: 200px;
+    border-radius: 0 20px;
+    z-index: 200;
+}
+
+.side-drawer ul{
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 50%;
+    background: white;
+    text-align: center;
+    top: 35px;
+    left: 35px;
+    border-radius: 0 20px ;
+    height: 520px;
+}
+
+.side-drawer a:hover,
+.side-drawer a:active{
+    color: lime;
+}
+
+.side-drawer a{
+    color:  rgb(102, 192, 219);
+    text-decoration: none;
+}
+
+svg {
+    display: block;
+}
+
+.intro1{
+    background: rgb(102, 192, 219);
+}
+
+.intro2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 60px;
+    color: #fff;
+    background: rgb(102, 192, 219);
+}
+
+.name, .introImage{
+    padding: 29px 90px;
+}
+
+.introImage{
+    height: 300px;
+    padding-top: 50px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 0.2;
+}
+
+.greeting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    margin-top: 70px;
+    left: 12%;
+    text-align: center;
+}
+
+.content{
+    margin: 0;
+    text-align: center; 
+    background-color: rgb(241, 238, 238);
+    padding: 6px;
+}
+
+.about, .jobDescription{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about{
+    align-content: space-evenly;
+    margin: 30px;
+    width: auto;
+}
+
+.aboutMe{
+    width: 500px;
+    padding: 20px 70px 20px;
+    background: whitesmoke;
+    text-align: left;
+    border-radius: 5px 20px;
+} 
+
+.hireMe-footer a, .hireMe a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+
+}
+
+.hireMe-footer, .hireMe{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 40%;
+    width: 5em;
+    height: 30px;
+    border-radius: 25px;
+    background-image: linear-gradient(45deg, #6ce5f5, #da4bec);
+    padding: 5px 0 7px 0;
+    animation: jump 3s 2s  infinite;
+    animation-fill-mode: both;
+}
+@keyframes jump{
+    20%, 100%{margin-left: 40%}
+    0%{margin-left: 45%}
+    10%{margin-left: 35%}
+}
+
+.hireMe-footer{
+    margin: auto;
+    animation: jump2 3s 2s  infinite;
+    animation-fill-mode: both;
+}
+@keyframes jump2{
+    20%, 100%{margin-left: auto}
+    0%{margin-left: 44%}
+    10%{margin-left: 48%}
+}
+
+.services, .role{
+    width: 400px;
+    padding: 20px 50px;
+    background: whitesmoke;
+    text-align: left;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px 20px;
+    margin: 50px;
+}
+
+hr.line{
+    border-top: 3px dashed rgb(102, 192, 219);
+}
+
+.about img{
+    width: 250px;
+    padding: 40px;
+    border-radius: 50%;
+}
+
+.jobDescription{
+        align-content: space-between;
+}
+
+.getInTouch{    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px auto;
+    width: 400px;
+    padding: 20px;
+    background: whitesmoke;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px 20px;
+}
+.getInTouch a{
+    padding:  0.5em;
+    color: rgb(102, 192, 219);
+}
+
+.getInTouch a:hover,
+.getInTouch a:active,
+.projects a:hover{
+    color: lime;
+}
+
+.getInTouch ul{
+    padding: 15px;
+}
+
+.role ul{
+    text-align: justify;
+    list-style: none;
+}
+
+.role img:hover{
+    width: 120px;
+}
+
+.skills{
+    background-color: whitesmoke;
+    border-radius: 5px 20px;
+    margin: 90px 160px;
+    padding: 8px;
+}
+
+.iconHtml, .iconCss, .iconJavascript, 
+.iconBootstrap, .iconJquery, .iconReact{
+    display: inline;
+    font-size: 50px;
+    text-align: center;
+    color: turquoise;
+}
+
+.iconBootstrap{
+    color: #563d7c;
+}
+
+.iconReact{
+    color: #61dbfb;
+}
+.iconCss{
+    color: #2965f1;
+}
+.iconJavascript{
+    color: #f0db4f;
+}
+.iconJquery{
+    color: #0868ac;
+}
+.iconHtml{
+    color: #f02569;
+}
+
+.mySkills li{
+    padding: 16px;
+    font-size: 1.2em;
+}
+
+.projects img{
+    width: 200px;
+    height: 180px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.fashion, .weather,
+ .newsletter, .projects,
+  .skills ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.projects{
+    flex-wrap: nowrap;
+}
+
+.fashion, .weather,
+ .newsletter{
+    margin: 0 100px;
+ }
+
+.projects a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+.projects img:hover{
+    width: 210px;
+    height: 190px;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto auto 50px;
+}
+
+footer{
+    background: rgb(241, 238, 238);
+    text-align: center;
+    color: white;
+}
+
+footer h4{
+    background: rgb(102, 192, 219);
+    margin: 0;
+    height: 50px;
+}
+
+
+@media(max-width:1024px){
+    .name, .introImage{
+        padding: 20px 60px;
+        font-size: 25px;
+    }
+    .name h6{
+        font-size: 16px;
+    }
+    .introImage{
+        width: 350px;
+        height: 250px;
+    }
+    .greeting{
+        position: absolute;
+        font-size: 27px;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -160px;
+    }
+    .services, .role, .getInTouch{
+        width: 600px;
+    }
+    .skills li{
+        padding: 12px;
+    }
+    .fashion, .weather, .newsletter{
+        padding: 20px;
+        margin: auto;
+    }
+    .projects-container{
+        margin-top: 50px;
+    }
+    .projects{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:768px){
+    .name, .introImage{
+        font-size: 23px;
+        padding: 0;
+    }
+    .introduction{
+        font-size: 23px;
+    }
+    .skills{
+        margin: 15px;
+    }
+
+    .introImage{
+        width: 250px;
+    }
+    .greeting{
+        font-size: 21px;
+        margin-left: -150px;
+    }
+}
+
+
+@media (max-width: 542px){
+body{
+    font-size: 20px;
+}
+
+.toolbar{
+    z-index: 100;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); 
+    height: 35px;
+    width: 100%;
+}
+
+.intro2{
+    margin-top: 40px;
+}
+
+.toolbarLogo{
+    font-size: 23px;
+    right: 55px;
+}
+
+.toolbarItems{
+    display: none;
+}
+.side-drawer ul{
+    font-size: 16px;
+    margin-left: -10px;
+}
+.name h2, .greeting h3{
+    font-size: 23px;
+}
+.name p, .greeting p{
+    font-size: 17px;
+}
+
+.name{
+    padding: 20px 20px;
+}
+
+.greeting{
+    position: absolute;
+    top: 30px;
+    left: 170px;
+}
+
+.aboutMe{
+    padding: 10px;
+}
+
+.hireMe, .hireMe-footer{
+    width: 100px;
+    font-size: 20px;
+    height: 23px;
+    padding: 5px;
+    animation: jump 3s 2s  infinite;
+    animation-fill-mode: both;
+}
+
+.hireMe{
+    margin-left: 31%;
+    margin-top: auto;
+}
+
+@keyframes jump{
+    20%, 100%{margin-left: 31%}
+    0%{margin-left: 29%}
+    10%{margin-left: 33%}
+}
+
+.hireMe-footer{
+    margin-top: auto;
+    margin-left: 35%;
+    animation: jump2 3s 2s  infinite;
+    animation-fill-mode: both;
+}
+
+@keyframes jump2{
+    20%, 100%{margin-left: 35%}
+    0%{margin-left: 32%}
+    10%{margin-left: 38%}
+}
+    
+.introImage{
+    display: none;
+}
+
+.services, .role{
+    margin: 15px 25px 25px 25px;
+    padding: 10px;
+}
+
+.getInTouch{
+    display: flex;
+    margin-top: 20px;
+    width: 270px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactItems ul{
+    text-align: center;
+    padding: 0px;
+}
+.contactItems li{
+    padding: 0;
+}
+.skills{
+    margin: 50px 25px;
+}
+.mySkills li{
+    padding: 21px;
+}
+.icon{
+    display: block;
+    font-size: 25px;
+}
+.toolbarLogo{
+    position: absolute;
+    margin-left: 64%;
+}
+}
+
+@media(max-width: 540px){
+    .mySkills ul{
+        text-align: left;
+        display: block;
+    }
+    .skills{
+        margin: auto;
+        width: 300px;
+    }
+    .greeting{
+        width: 300px;
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 320px){
+    .mySkills li{
+        padding: 18px;
+    }
+    .getInTouch{
+        width: 230px;
+    }
+}
+
+@media(max-width:280px){
+    body{
+        font-size: 0.9em;
+    }
+    .skills{
+        width: 240px;
+    }
+    .about img{
+        width: 200px;
+        padding-bottom: 0;
+    }
+    .fashion, .weather, .newsletter{
+        margin-left: -11px;
+    }
+    .side-drawer ul{
+        font-size: 16px;
+        margin-left: -20px;
+    }
+    .greeting{
+        width: 250px;
+    }
+    .greeting h3{
+        line-height: 0;
+    }
+    .name h2{
+        font-size: 19px;
+    }
+    .projects{
+        text-align: center;
+        margin-left: 27px;
+    }
+}
+
+
+@media (min-width: 768px){
+    .toggle-button, .side-drawer{
+        display: none;
+    }
+    .backdrop{
+        display: none;
+    }
+    .greeting{
+        left: 20%;
+        top: 140px;
+        width: 20em;
+    }
+    .emoji{
+        display: none;
+    }
+}
