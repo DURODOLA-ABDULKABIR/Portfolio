@@ -11,11 +11,37 @@ import { VscGithub } from "react-icons/vsc";
 
 
 
+
 function Skills() {
   return (
     <div className="skills">
       <h2>Skills/Tools</h2>
       <div className="mySkills">
+        <ul>
+        <li>
+            <GrSwift className="iconSwift" /> Swift
+          </li>
+          <li>
+            <SiFirebase className="iconFirebase" />
+            Firebase
+          </li>
+          <li>
+            <SiCocoapods className="iconCocoapods" />
+            Cocoapods
+          </li>
+        </ul>
+        <ul>
+        <li>
+            <GrReactjs className="iconReact" /> React JS
+          </li>
+          <li>
+            <DiJavascript className="iconJavascript" />
+            JavaScript
+          </li>
+          <li>
+            <SiRealm className="iconRealm" /> RealmSwift
+          </li>
+        </ul>
         <ul>
           <li>
             <FaHtml5 className="iconHtml" />
@@ -24,31 +50,6 @@ function Skills() {
           <li>
             <FaCss3Alt className="iconCss" />
             CSS
-          </li>
-          <li>
-            <SiCocoapods className="iconCocoapods" />
-            Cocoapods
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <DiJavascript className="iconJavascript" />
-            JavaScript
-          </li>
-          <li>
-            <GrSwift className="iconSwift" /> Swift
-          </li>
-          <li>
-            <GrReactjs className="iconReact" /> React JS
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <SiFirebase className="iconFirebase" />
-            Firebase
-          </li>
-          <li>
-            <SiRealm className="iconRealm" /> RealmSwift
           </li>
           <li>
             <VscGithub className="iconGithub" /> Git/Github

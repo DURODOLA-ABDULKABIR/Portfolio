@@ -15,16 +15,16 @@ body{
 h2{
     font-size: 1.5em;
     margin: 0;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 h5{
     font-size: 1em;
     margin: 0;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h6{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.9em;
 }
 .toolbar{
@@ -325,12 +325,24 @@ hr.line{
 }
 
 .iconHtml, .iconCss, .iconJavascript, 
-.iconCocoapods, .iconSwift, .iconReact{
+.iconCocoapods, .iconSwift, .iconReact,
+.iconFirebase, .iconRealm, .iconGithub{
     display: inline;
     font-size: 50px;
     text-align: center;
     color: turquoise;
 }
+
+.iconRealm{
+    color: #2c3e50;
+}
+.iconGithub{
+    color: #211f1f;
+}
+.iconFirebase{
+    color: #ffa611;
+}
+
 
 .iconCocoapods{
     color: #ff3830;
@@ -471,7 +483,7 @@ footer h4{
 
 @media(max-width:768px){
     .name, .introImage{
-        font-size: 23px;
+        font-size: 20px;
         padding: 0;
     }
     .introduction{
@@ -493,7 +505,7 @@ footer h4{
 
 @media (max-width: 542px){
 body{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .toolbar{

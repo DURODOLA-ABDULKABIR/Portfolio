@@ -13,7 +13,7 @@ function Toolbar(props) {
               className="toggle-button"
               onClick={props.drawerClickHandler}
             />
-            <h1 className="toolbarLogo">DURO$</h1>
+            <h1 className="toolbarLogo">Durodola</h1>
             <div className="spacer" />
             <Navigation />
             <div className="spacer" />

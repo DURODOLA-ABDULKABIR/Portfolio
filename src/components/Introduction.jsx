@@ -11,7 +11,7 @@ function Introduction() {
       {(props) => (
         <div className="name" style={props}>
           <h6> I am</h6>
-          <h2>Durodola Abdulkabir</h2>
+          <h2>Abdulkabir Durodola</h2>
           <h6>
             iOS Developer{" "}
             <span
