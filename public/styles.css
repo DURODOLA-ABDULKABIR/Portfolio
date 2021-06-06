@@ -325,15 +325,15 @@ hr.line{
 }
 
 .iconHtml, .iconCss, .iconJavascript, 
-.iconBootstrap, .iconJquery, .iconReact{
+.iconCocoapods, .iconSwift, .iconReact{
     display: inline;
     font-size: 50px;
     text-align: center;
     color: turquoise;
 }
 
-.iconBootstrap{
-    color: #563d7c;
+.iconCocoapods{
+    color: #ff3830;
 }
 
 .iconReact{
@@ -345,8 +345,8 @@ hr.line{
 .iconJavascript{
     color: #f0db4f;
 }
-.iconJquery{
-    color: #0868ac;
+.iconSwift{
+    color: #ff3b30;
 }
 .iconHtml{
     color: #f02569;
@@ -387,7 +387,10 @@ hr.line{
     /* flex-wrap: nowrap; */
     display: flex;
     flex-direction: row;
-    padding: 20px;
+}
+hr.solid {
+  border-top: 1px solid #bbb;
+   width: 77%; 
 }
 
 
@@ -408,7 +411,7 @@ hr.line{
     height: 190px;
 } */
 
-.projects-container{
+.projects-container hr.solid{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -425,7 +428,7 @@ footer{
 footer h4{
     background: rgb(102, 192, 219);
     margin: 0;
-    height: 50px;
+    height: 100px;
 }
 
 
@@ -606,6 +609,11 @@ body{
     flex-direction: column;
     /* padding: 20px; */
 }
+
+hr.solid {
+     width: 100%;
+  }
+
 .icon{
     display: block;
     font-size: 25px;

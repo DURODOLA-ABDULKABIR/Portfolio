@@ -1,10 +1,15 @@
 import React from "react";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
-import { FaBootstrap } from "react-icons/fa";
+import { SiCocoapods } from "react-icons/si";
 import { DiJavascript } from "react-icons/di";
-import { SiJquery } from "react-icons/si";
+import { GrSwift } from "react-icons/gr";
 import { GrReactjs } from "react-icons/gr";
+import { SiFirebase } from "react-icons/si";
+import { SiRealm } from "react-icons/si";
+import { VscGithub } from "react-icons/vsc";
+
+
 
 function Skills() {
   return (
@@ -21,8 +26,8 @@ function Skills() {
             CSS
           </li>
           <li>
-            <FaBootstrap className="iconBootstrap" />
-            Bootstrap
+            <SiCocoapods className="iconCocoapods" />
+            Cocoapods
           </li>
         </ul>
         <ul>
@@ -31,10 +36,22 @@ function Skills() {
             JavaScript
           </li>
           <li>
-            <SiJquery className="iconJquery" /> jQuery
+            <GrSwift className="iconSwift" /> Swift
           </li>
           <li>
             <GrReactjs className="iconReact" /> React JS
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <SiFirebase className="iconFirebase" />
+            Firebase
+          </li>
+          <li>
+            <SiRealm className="iconRealm" /> RealmSwift
+          </li>
+          <li>
+            <VscGithub className="iconGithub" /> Git/Github
           </li>
         </ul>
       </div>

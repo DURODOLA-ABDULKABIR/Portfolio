@@ -10,13 +10,13 @@ function Role() {
         <span role="img" aria-label="pointer">
           👉
         </span>{" "}
-        Front end role (Onsite)
+        iOS developer role (Remote)
       </p>
       <p>
         <span role="img" aria-label="pointer">
           👉
         </span>{" "}
-        Front end role (Remote)
+        iOS developer role (Onsite)
       </p>
       <p>
         <span role="img" aria-label="pointer">

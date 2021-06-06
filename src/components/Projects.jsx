@@ -4,7 +4,7 @@ function Projects() {
   return (
     <div className="projects-container">
       <h2>Projects</h2>
-
+        <hr className = "solid"/>
       <div className="projects" id="projects">
       <h3>Cowrywise Onbording screens</h3>
         <div className="screens">
@@ -19,8 +19,13 @@ function Projects() {
           <div className="weather">
             <img src={require("./Cowrywise3.png")} alt="" />
           </div>
+        </div> 
+        <div>
+            <p><b>Technology used: </b>Programmatic UI, API post request, MVVM architecture.</p>
+            <a href="https://github.com/DURODOLA-ABDULKABIR" target="_blank" rel="noopener noreferrer">Open in Github</a>
         </div>
-        <p>Cowrywise Onbording screens</p>
+        
+        <hr className="solid"/>
 
         <h3>Todo list</h3>
         <div className="screens">
@@ -36,7 +41,12 @@ function Projects() {
             <img src={require("./Todo.png")} alt="" />
           </div>
         </div>
-        <p>Cowrywise Onbording screens</p>
+        <div>
+            <p><b>Technology used: </b>Programmatic UI, API post request, MVVM architecture.</p>
+            <a href="https://github.com/DURODOLA-ABDULKABIR" target="_blank" rel="noopener noreferrer">Open in Github</a>
+        </div>
+
+        <hr className = "solid"/>
 
       <h3>Blinkist section replica</h3>
         <div className="screens">
@@ -48,7 +58,12 @@ function Projects() {
             <img src={require("./Blinkist2.png")} alt="" />
           </div>
         </div>
-        <p>Cowrywise Onbording screens</p>
+        <div>
+        <p><b>Technology used: </b>Json serialization, Autolayout, collectionView, Storyborads, Git.</p>
+            <a href="https://github.com/DURODOLA-ABDULKABIR" target="_blank" rel="noopener noreferrer">Open in Github</a>
+        </div>
+
+        <hr className = "solid"/>
 
       <h3>Weather app</h3>
         <div className="screens">
@@ -56,7 +71,11 @@ function Projects() {
             <img src={require("./WeatherAp.png")} alt="" />
           </div>
         </div>
-        <p>Cowrywise Onbording screens</p>
+        <div>
+        <p><b>Technology used: </b>AutoLayout, Openweathermap API, MVVM architecture, Storyboards, Version control.</p>
+            <a href="https://github.com/DURODOLA-ABDULKABIR" target="_blank" rel="noopener noreferrer">Open in Github</a>
+        </div>
+        <hr className = "solid"/>
 
       </div>
     </div>
