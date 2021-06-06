@@ -11,9 +11,9 @@ function Heading() {
           <div>
             <img src={require("./head.png")} alt="" className="introImage" />
           </div>
-          <div id="about" />
         </div>
         <Introduction2 />
+        <div id="about" />
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 65">
           <path
             fill="rgb(241, 238, 238)"

@@ -9,7 +9,7 @@ html,body{
 body{
     height: 100%;
     width: 100%;
-    font-size: 1.2em;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
 }
 h2{
@@ -214,7 +214,7 @@ svg {
 
 .aboutMe{
     width: 500px;
-    padding: 20px 70px 20px;
+    padding: 20px 40px 20px;
     background: whitesmoke;
     text-align: left;
     border-radius: 5px 20px;
@@ -272,7 +272,7 @@ hr.line{
 }
 
 .about img{
-    width: 250px;
+    width: 200px;
     padding: 40px;
     border-radius: 50%;
 }
@@ -324,9 +324,7 @@ hr.line{
     padding: 8px;
 }
 
-.iconHtml, .iconCss, .iconJavascript, 
-.iconCocoapods, .iconSwift, .iconReact,
-.iconFirebase, .iconRealm, .iconGithub{
+.skIcon{
     display: inline;
     font-size: 50px;
     text-align: center;
@@ -400,7 +398,7 @@ hr.line{
     display: flex;
     flex-direction: row;
 }
-hr.solid {
+hr.solidline {
   border-top: 1px solid #bbb;
    width: 77%; 
 }
@@ -507,7 +505,9 @@ footer h4{
 body{
     font-size: 15px;
 }
-
+.skIcon{
+    font-size: 30px;
+}
 .toolbar{
     z-index: 100;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); 
@@ -622,7 +622,7 @@ body{
     /* padding: 20px; */
 }
 
-hr.solid {
+hr.solidline {
      width: 100%;
   }
 

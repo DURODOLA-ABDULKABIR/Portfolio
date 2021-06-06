@@ -19,43 +19,44 @@ function Skills() {
       <div className="mySkills">
         <ul>
         <li>
-            <GrSwift className="iconSwift" /> Swift
+            <GrSwift className="iconSwift skIcon" /> Swift
           </li>
           <li>
-            <SiFirebase className="iconFirebase" />
+            <SiFirebase className="iconFirebase skIcon" />
             Firebase
           </li>
           <li>
-            <SiCocoapods className="iconCocoapods" />
+            <SiCocoapods className="iconCocoapods skIcon" />
             Cocoapods
           </li>
         </ul>
         <ul>
         <li>
-            <GrReactjs className="iconReact" /> React JS
+            <SiRealm className="iconRealm skIcon" /> Realm
           </li>
           <li>
-            <DiJavascript className="iconJavascript" />
+            <DiJavascript className="iconJavascript skIcon" />
             JavaScript
           </li>
           <li>
-            <SiRealm className="iconRealm" /> RealmSwift
+            <GrReactjs className="iconReact skIcon" /> React JS
           </li>
         </ul>
         <ul>
           <li>
-            <FaHtml5 className="iconHtml" />
+            <FaHtml5 className="iconHtml skIcon" />
             HTML
           </li>
           <li>
-            <FaCss3Alt className="iconCss" />
+            <FaCss3Alt className="iconCss skIcon" />
             CSS
           </li>
           <li>
-            <VscGithub className="iconGithub" /> Git/Github
+            <VscGithub className="iconGithub skIcon" /> Git/Github
           </li>
         </ul>
       </div>
+      <div id="projects" />
     </div>
   );
 }
