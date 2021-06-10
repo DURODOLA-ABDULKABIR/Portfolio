@@ -75,7 +75,7 @@ function Projects() {
         <p><b>Technology used: </b>AutoLayout, Openweathermap API, MVVM architecture, Storyboards, Version control.</p>
             <a href="https://github.com/DURODOLA-ABDULKABIR" target="_blank" rel="noopener noreferrer">Open in Github</a>
         </div>
-        <hr className = "solidline"/>
+        {/* <hr className = "solidline"/> */}
 
       </div>
     </div>

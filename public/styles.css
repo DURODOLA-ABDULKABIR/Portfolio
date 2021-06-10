@@ -230,7 +230,7 @@ svg {
 .hireMe-footer, .hireMe{
     font-size: 23px;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 40px;
     margin-left: 40%;
     width: 5em;
     height: 30px;
@@ -272,7 +272,8 @@ hr.line{
 }
 
 .about img{
-    width: 200px;
+    width: 270px;
+    height: 250px;
     padding: 40px;
     border-radius: 50%;
 }
@@ -401,6 +402,8 @@ hr.line{
 hr.solidline {
   border-top: 1px solid #bbb;
    width: 77%; 
+   margin: 30px;
+   margin-bottom: -5px;
 }
 
 
@@ -623,7 +626,8 @@ body{
 }
 
 hr.solidline {
-     width: 100%;
+     /* width: 100%; */
+     visibility: hidden;
   }
 
 .icon{
