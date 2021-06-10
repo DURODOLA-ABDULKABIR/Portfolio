@@ -240,6 +240,7 @@ svg {
     animation: jump 3s 2s  infinite;
     animation-fill-mode: both;
 }
+
 @keyframes jump{
     20%, 100%{margin-left: 40%}
     0%{margin-left: 45%}
@@ -371,8 +372,6 @@ hr.line{
 .projects img{
     width: 200px;
     height: 350px;
-    /* border-radius: 8px; */
-    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); */
 }
 
 .fashion, .weather,
@@ -383,19 +382,16 @@ hr.line{
     text-align: center;
     justify-content: center;
     margin: auto;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     list-style: none;
 }
 
 .projects{
-    /* flex-wrap: nowrap; */
     display: flex;
     flex-direction: column;
 }
 
 .screens{
-    /* flex-wrap: nowrap; */
     display: flex;
     flex-direction: row;
 }
@@ -419,17 +415,15 @@ hr.solidline {
     margin: auto;
 }
 
-/* .projects img:hover{
-    width: 210px;
-    height: 190px;
-} */
-
 .projects-container hr.solid{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto auto 50px;
-    /* background-color: white; */
+}
+
+.projects-container {
+    padding-bottom: 30px;
 }
 
 footer{
@@ -441,7 +435,8 @@ footer{
 footer h4{
     background: rgb(102, 192, 219);
     margin: 0;
-    height: 100px;
+    padding-top: 25px;
+    height: 60px;
 }
 
 
@@ -619,14 +614,10 @@ body{
     padding: 21px;
 }
 .screens{
-    /* flex-wrap: nowrap; */
-    /* display: flex; */
     flex-direction: column;
-    /* padding: 20px; */
 }
 
 hr.solidline {
-     /* width: 100%; */
      visibility: hidden;
   }
 
