@@ -16,7 +16,7 @@ function About() {
         </div>
       </div>
       <div>
-        <img src={require("./HeaderIMG1.JPG")} alt="IntroImage" />
+        <img src={require("./HeaderIMG1.jpeg")} alt="IntroImage" />
       </div>
     </div>
   );

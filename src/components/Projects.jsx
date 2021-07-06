@@ -6,22 +6,22 @@ function Projects() {
       <h2>Projects</h2>
         <hr className = "solidline"/>
       <div className="projects">
-      <h3>Cowrywise Onbording screens</h3>
+      <h3>Fundall mini app</h3>
         <div className="screens">
           <div className="weather">
-            <img src={require("./Cowrywise1.png")} alt="" />
+            <img src={require("./fundall1.png")} alt="" />
           </div>
 
           <div className="weather">
-            <img src={require("./Cowrywise2.png")} alt="" />
+            <img src={require("./fundall2.png")} alt="" />
           </div>
 
           <div className="weather">
-            <img src={require("./Cowrywise3.png")} alt="" />
+            <img src={require("./fundall3.png")} alt="" />
           </div>
         </div> 
         <div>
-            <p><b>Technology used: </b>Programmatic UI, API post request, MVVM architecture.</p>
+            <p><b>Technology used: </b>Storyboards, RESTful API, MVVM architecture, UserDefaults, Version control.</p>
             <a href="https://github.com/DURODOLA-ABDULKABIR" target="_blank" rel="noopener noreferrer">Open in Github</a>
         </div>
         
@@ -75,7 +75,6 @@ function Projects() {
         <p><b>Technology used: </b>AutoLayout, Openweathermap API, MVVM architecture, Storyboards, Version control.</p>
             <a href="https://github.com/DURODOLA-ABDULKABIR" target="_blank" rel="noopener noreferrer">Open in Github</a>
         </div>
-        {/* <hr className = "solidline"/> */}
 
       </div>
     </div>
